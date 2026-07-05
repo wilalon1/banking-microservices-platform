@@ -1,0 +1,44 @@
+version: "3.8"
+services:
+  config-server:
+    build: ./banking-config-server/config-server/config-server
+    ports:
+      - "8888:8888"
+  eureka-server:
+    build: ./banking-eureka-server/eureka-server/eureka-server
+    ports:
+      - "8761:8761"
+  api-gateway:
+    build: ./banking-api-gateway/api-gateway/api-gateway
+    ports:
+      - "8080:8080"
+    depends_on:
+      - eureka-server
+  account-service:
+    build: ./banking-account-service/account-service/account-service
+    ports:
+      - "8081:8080"
+    depends_on:
+      - config-server
+      - eureka-server
+  credit-service:
+    build: ./banking-credit-service/credit-service/credit-service
+    ports:
+      - "8084:8080"
+    depends_on:
+      - config-server
+      - eureka-server
+  customer-service:
+    build: ./banking-customer-service/customer-service/customer-service
+    ports:
+      - "8082:8080"
+    depends_on:
+      - config-server
+      - eureka-server
+  transaction-service:
+    build: ./banking-transaction-service/transaction-service/transaction-service
+    ports:
+      - "8083:8080"
+    depends_on:
+      - config-server
+      - eureka-server
