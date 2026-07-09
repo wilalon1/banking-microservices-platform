@@ -1,0 +1,49 @@
+<mxfile host="Electron">
+  <diagram name="Página-1" id="FRZC3cPRSbLqjArg-IQJ">
+    <mxGraphModel dx="1016" dy="595" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="dzxyspYLtPXNMpWSJHXJ-5" edge="1" parent="1" source="dzxyspYLtPXNMpWSJHXJ-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="dzxyspYLtPXNMpWSJHXJ-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dzxyspYLtPXNMpWSJHXJ-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Cliente" vertex="1">
+          <mxGeometry height="60" width="120" x="310" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="dzxyspYLtPXNMpWSJHXJ-7" edge="1" parent="1" source="dzxyspYLtPXNMpWSJHXJ-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="dzxyspYLtPXNMpWSJHXJ-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dzxyspYLtPXNMpWSJHXJ-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="Account Controller" vertex="1">
+          <mxGeometry height="60" width="120" x="310" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="dzxyspYLtPXNMpWSJHXJ-11" edge="1" parent="1" source="dzxyspYLtPXNMpWSJHXJ-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="dzxyspYLtPXNMpWSJHXJ-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dzxyspYLtPXNMpWSJHXJ-12" edge="1" parent="1" source="dzxyspYLtPXNMpWSJHXJ-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="dzxyspYLtPXNMpWSJHXJ-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dzxyspYLtPXNMpWSJHXJ-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="Account Service&lt;div&gt;(AccounServiceImpl)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="310" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="dzxyspYLtPXNMpWSJHXJ-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="Base de Datos" vertex="1">
+          <mxGeometry height="80" width="120" x="110" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="dzxyspYLtPXNMpWSJHXJ-15" edge="1" parent="1" source="dzxyspYLtPXNMpWSJHXJ-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="dzxyspYLtPXNMpWSJHXJ-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dzxyspYLtPXNMpWSJHXJ-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Redis" vertex="1">
+          <mxGeometry height="80" width="120" x="520" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="dzxyspYLtPXNMpWSJHXJ-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="AccountRepository" vertex="1">
+          <mxGeometry height="70" width="120" x="120" y="515" as="geometry" />
+        </mxCell>
+        <mxCell id="dzxyspYLtPXNMpWSJHXJ-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" value="&quot;accounts&quot; : List&amp;lt;Account&amp;gt;" vertex="1">
+          <mxGeometry height="70" width="120" x="520" y="515" as="geometry" />
+        </mxCell>
+        <mxCell id="dzxyspYLtPXNMpWSJHXJ-14" edge="1" parent="1" source="dzxyspYLtPXNMpWSJHXJ-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.413;entryY=0.046;entryDx=0;entryDy=0;entryPerimeter=0;" target="dzxyspYLtPXNMpWSJHXJ-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

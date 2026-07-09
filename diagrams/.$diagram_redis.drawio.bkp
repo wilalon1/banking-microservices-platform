@@ -1,0 +1,25 @@
+<mxfile host="Electron">
+  <diagram name="Página-1" id="FRZC3cPRSbLqjArg-IQJ">
+    <mxGraphModel dx="1016" dy="595" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="dzxyspYLtPXNMpWSJHXJ-5" edge="1" parent="1" source="dzxyspYLtPXNMpWSJHXJ-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="dzxyspYLtPXNMpWSJHXJ-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dzxyspYLtPXNMpWSJHXJ-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Cliente" vertex="1">
+          <mxGeometry height="60" width="120" x="310" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="dzxyspYLtPXNMpWSJHXJ-7" edge="1" parent="1" source="dzxyspYLtPXNMpWSJHXJ-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="dzxyspYLtPXNMpWSJHXJ-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dzxyspYLtPXNMpWSJHXJ-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Account Controller" vertex="1">
+          <mxGeometry height="60" width="120" x="310" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="dzxyspYLtPXNMpWSJHXJ-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Account Service&lt;div&gt;(AccounServiceImpl)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="310" y="290" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
